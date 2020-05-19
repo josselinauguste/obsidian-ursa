@@ -82,6 +82,11 @@ mark
   padding: 2px 3px 2px 3px;
 }
 
+.workspace-leaf.mod-active .view-header {
+  border-top: none;
+  border-bottom: 1px solid var(--interactive-accent);
+}
+
 /**********************/
 /* links and brackets */
 /**********************/
