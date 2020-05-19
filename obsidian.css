@@ -22,6 +22,7 @@
   --blockquote-border: #D6555F;
   --tag-background: #A7B0B3;
   --interactive-accent-rgb: #db4d52;
+  --fat-cursor-bg: #db4d5280;  
   --font-family-editor: "iA Writer Duospace", monospace;
   --font-family-preview: "iA Writer Duospace", monospace;
 }
@@ -50,6 +51,7 @@
   --blockquote-border: #4AA8FB;
   --tag-background: #A7B0B3;
   --interactive-accent-rgb: #6BCAFB;
+  --fat-cursor-bg: #6BCAFB80;  
   --font-family-editor: "iA Writer Duospace", monospace;
   --font-family-preview: "iA Writer Duospace", monospace;
 }
@@ -87,6 +89,17 @@ mark
   border-bottom: 1px solid var(--interactive-accent);
 }
 
+.cm-fat-cursor .CodeMirror-cursor {
+  width: auto;
+  border: 0 !important;
+  background: var(--fat-cursor-bg);
+}
+.cm-fat-cursor-mark {
+  background-color: var(--fat-cursor-bg);
+}
+.cm-animate-fat-cursor {
+  background-color: var(--fat-cursor-bg);
+}
 /**********************/
 /* links and brackets */
 /**********************/
