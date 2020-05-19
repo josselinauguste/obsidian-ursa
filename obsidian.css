@@ -457,13 +457,6 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator
   line-height: normal;
 }
 
-/* to have sidebar hide and then reveal on hover */
-.app-container.is-left-sidedock-collapsed .side-dock.mod-left:not(:hover),
-.app-container.is-right-sidedock-collapsed .side-dock.mod-right:not(:hover)
-{
-  width: 0px !important;
-}
-
 /* font for everything outside of editor/preview panes */
 .app-container
 {
