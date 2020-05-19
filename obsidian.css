@@ -520,8 +520,15 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator
   font-family: var(--font-family-editor);
   font-size: 15px;
   color: var(--text-normal);
-  padding-left: 30% !important;
-  padding-right: 30% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.CodeMirror-sizer {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 80%;
+  max-width: 730px;
 }
 
 /* headings */
