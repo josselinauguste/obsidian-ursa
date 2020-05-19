@@ -124,7 +124,7 @@ a:not(.internal-link) {
 /* blockquote */
 .cm-quote /* for editor */
 {
-  color: var(--text-normal) !important;
+  color: var(--text-muted) !important;
 }
 
 blockquote /* for preview */
